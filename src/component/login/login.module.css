@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.login_bg {
+  flex: 1 1 44%;
+}
+.login_img {
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+}
+
+/* form */
+.login_form_wrap {
+  flex: 1 1 56%;
+  background-color: #f8f7f8;
+  display: flex;
+  justify-content: center;
+}
+
+.login_form {
+  width: 100%;
+  margin: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.input {
+  width: -webkit-fill-available;
+  height: 72px;
+  border-radius: 0.75rem;
+  border: none;
+  padding: 0 28px;
+  margin-bottom: 3.125rem;
+  outline: none;
+  font-size: 1.125rem;
+}
+.input::placeholder {
+  font-size: 1.125rem;
+}
+.id {
+  margin-bottom: 32px;
+}
+.password {
+  margin-bottom: 38px;
+}
+.find_btn {
+  color: #1d57a5;
+  cursor: pointer;
+}
+.login_btn_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.125rem;
+}
+.login_btn {
+  width: 200px;
+  height: 68px;
+  background-color: #1d57a5;
+  border: none;
+  border-radius: 34px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.sign_up {
+  margin: 60px 0 72px 0;
+  font-size: 1.125rem;
+}
+.sign_up_btn {
+  margin-left: 12px;
+  color: #1d57a5;
+  cursor: pointer;
+}
+.sign_sns_title_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  font-size: 1.125rem;
+}
+.sign_sns_title {
+  width: 158px;
+  margin: 0 1.875rem 0 0;
+  text-align: left;
+}
+.border {
+  width: 70%;
+  max-width: 524px;
+  height: 2px;
+  background-color: #deddde;
+}
+.sns_btn_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: unset;
+  margin: unset;
+  width: 100%;
+}
+.sns_btn_li {
+  flex: 0 1 30%;
+}
+.sns_btn {
+  width: 100%;
+  height: 5.25rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.naver {
+  background-color: #75b76f;
+  color: #fff;
+}
+.google {
+  background-color: #fff;
+  color: #292929;
+}
+.kakao {
+  background-color: #efcc7f;
+  color: #292929;
+}
